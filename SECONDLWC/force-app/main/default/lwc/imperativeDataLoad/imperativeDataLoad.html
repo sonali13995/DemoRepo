@@ -1,0 +1,8 @@
+<template>
+    <ligtning-card>
+        <template for:each={conList} for:item="con">
+            <p key={con.id}>{con.Name}</p>
+          </template>
+        <linghtning-input label="Display List" onclick={handleButton}></linghtning-input>
+    </ligtning-card>
+</template>

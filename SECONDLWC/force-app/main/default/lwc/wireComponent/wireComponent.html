@@ -1,0 +1,7 @@
+<template>
+    <lightning-card>
+        <template for:each={accRecord.data} for:item="acc">
+            <p key={acc.Id}>{acc.Name} {acc.Phone} {acc.Industry}</p>
+          </template>
+    </lightning-card>
+</template>
